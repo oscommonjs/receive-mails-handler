@@ -6,7 +6,7 @@
 
 ## 调用方式
 ### 主要处理文件
->reveive_mails.py
+>receive_mails.py
 
 ```
 python3 receive_mail.py
@@ -14,6 +14,7 @@ python3 receive_mail.py
 
 
 ### 执行数据库语句
+不需要单独运行, receive_mails.py 内有调用
 >ex_sql.py
 
 - `python ex_sql.py u notice_hahs`
