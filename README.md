@@ -5,17 +5,25 @@
 自动化处理磁力版权问题, 以及观测数据库状态
 
 ## 调用方式
-### reveive_mails.py
-主要处理文件
+### 主要处理文件
+>reveive_mails.py
+
 ```
 python3 receive_mail.py
 ```
 
 
-### ex_sql.py
-执行数据库语句
+### 执行数据库语句
+>ex_sql.py
 
-- 1. python ex_sql.py u 版权hash 
-    例: `python ex_sql.py u b646554d75632a80d30a39bf1fa00c0757ebbea6`
-- 2. python ex_sql.py sql命令 
-    例: `python ex_sql.py select hash from hash where 1 limit 1`
+- `python ex_sql.py u notice_hahs`
+     ```
+     python ex_sql.py u b646554d75632a80d30a39bf1fa00c0757ebbea6
+     ```
+- `python ex_sql.py sql_command`
+    ```
+    python ex_sql.py select hash from hash where 1 limit 1
+    ```
+
+# 参考
+http://blog.csdn.net/marksinoberg/article/details/66969620
